@@ -3,7 +3,7 @@ layout:     post
 title:      数据增强(Data Augmentation)
 subtitle:   技巧
 date:       2018-08-30
-author:     crazyang
+author:     listen_spacer
 header-img: img/data
 catalog: true
 tags:
