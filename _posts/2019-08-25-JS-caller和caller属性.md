@@ -4,7 +4,7 @@ title:      JS-caller和caller属性
 subtitle:   JavaScript
 date:       2019-08-25
 author:     listen_spacer
-header-img: img/background3.jpeg
+header-img: img/background3.jpg
 catalog: true
 tags:
     - JavaScript

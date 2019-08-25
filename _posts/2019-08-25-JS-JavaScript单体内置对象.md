@@ -4,7 +4,7 @@ title:      JS-JavaScript单体内置对象
 subtitle:   JavaScript
 date:       2019-08-25
 author:     listen_spacer
-header-img: img/background1.jpeg
+header-img: img/background1.jpg
 catalog: true
 tags:
     - JavaScript

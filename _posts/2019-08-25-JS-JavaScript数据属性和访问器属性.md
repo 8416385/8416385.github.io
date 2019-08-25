@@ -4,7 +4,7 @@ title:      JS-JavaScript数据属性和访问器属性
 subtitle:   JavaScript
 date:       2019-08-25
 author:     listen_spacer
-header-img: img/background1.jpeg
+header-img: img/background1.jpg
 catalog: true
 tags:
     - JavaScript
