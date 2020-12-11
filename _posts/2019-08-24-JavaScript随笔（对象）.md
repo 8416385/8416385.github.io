@@ -18,6 +18,7 @@ tags:
 
 >用函数来封装以特定接口创建对象的细节。
 >例如：
+
 ```
 function createPerson(name,age,job){
     var o = new Object();
@@ -103,6 +104,7 @@ o.sayName();
 >说明白点，以这种方式创建函数，会导致不同的作用域链和标识符解析，
 >但创建Function新实例的机制仍然是相同的。
 >因此，不同实例上的同名函数的不相等的
+
 ```
 person1.sayName() == person2.sayName()      // false
 ```
@@ -141,6 +143,7 @@ person1.sayName() == person2.sayName()      // false
 ```
 
 >可以通过isPrototypeOf()方法来确定对象之间是否存在这种关系。
+
 ```
 alert(Person.prototype.isPrototypeOf(person1));
 ```
@@ -155,12 +158,14 @@ alert(Person.prototype.isPrototypeOf(person1));
 >
 >不过，使用delete操作符则可以完全删除实例属性，
 >从而让我们能够重新访问原型中的属性。
+
 ```
 delete person1.name;
 ```
 
 >使用hasOwnProperty()方法可以检测一个属性是存在实例中，还是存在于原型中。
 >只在给定属性存在于对象实例中时，才会返回true。 
+
 ```
 person1.hasOwnProperty("name")
 ```

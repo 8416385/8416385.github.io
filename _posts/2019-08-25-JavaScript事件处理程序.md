@@ -11,12 +11,14 @@ tags:
 ---
 ## JavaScript事件处理程序
 1、DOM0级事件处理程序
+
 ```
 var btn = document.getElementById("myBtn");
     btn.onclick = function(){
         alert("clicked");
     }  
 ```
+
 >
 >    只能一种事件只能绑定一个事件。
 >    btn.onclick = null;        //删除事件处理程序
@@ -24,13 +26,15 @@ var btn = document.getElementById("myBtn");
 >    优点：简单、具有跨浏览器的优势
 
 2、DOM2级事件处理程序
+
 ```
 var btn = document.getElementById("myBtn");
     btn.addEventListener("click",function(){
         alert(this.id);
     },false)
 ```
->    
+
+  
 >    “DOM2级事件”定义了两个方法，用于处理指定和删除事件处理程序的操作：addEventListener()和removerEventListener()。
 >
 >    他们接收三个参数：要处理的事件名，作为事件处理程序的函数和一个布尔值。
@@ -42,13 +46,15 @@ var btn = document.getElementById("myBtn");
 >    **这也就意味着通过addEventListener()添加的匿名函数将无法移除。**
 
 3、IE事件处理程序
+
 ```
 var btn = document.getElementById("myBtn");
     btn.attachEvent("onclick",function(){
         alert('Clicked');
     });
 ```
->
+
+
 >    由于IE8及更正版本只支持事件冒泡，所以通过attachEvent()添加的事件处理程序都会被添加到冒泡阶段。
 >
 >    IE实现了与DOM中类似的两个方法：attachEvent()和detachEvent()。

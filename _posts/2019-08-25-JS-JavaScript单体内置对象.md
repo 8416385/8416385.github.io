@@ -14,6 +14,7 @@ tags:
 ```
     ECMA-262对内置对象的定义是："由ECMAScript实现提供的、不依赖于宿主环境的对象，这些对象在ECMAScript程序执行之前就已经存在了。"（例如：Object、Array和String）
 ```
+
 ECMA-262还定义两个单体内置对象：**Global** 和 **Math**
 
 #### 1、Global对象
