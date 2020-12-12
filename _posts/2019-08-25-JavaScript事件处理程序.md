@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JavaScript事件处理程序
-subtitle:   JavaScript
+subtitle:   DOM0级、DOM2级事件与IE事件处理程序
 date:       2019-08-25
 author:     listen_spacer
 header-img: img/background1.jpg

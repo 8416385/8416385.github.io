@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JavaScript随笔（对象）
-subtitle:   JavaScript
+subtitle:   JavaScript对象的设计模式随笔
 date:       2019-08-24
 author:     listen_spacer
 header-img: img/post-bg-coffee.jpeg

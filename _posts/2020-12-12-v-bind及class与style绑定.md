@@ -7,7 +7,7 @@ author:     listen_spacer
 header-img: img/bg/8.jpg
 catalog: true
 tags:
-    - VUE
+    - vue
 ---
 
 #### v-bind及class与style绑定

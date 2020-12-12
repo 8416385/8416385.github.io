@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JS-caller和caller属性
-subtitle: JavaScript
+subtitle: caller和caller指针
 date: 2019-08-25
 author: listen_spacer
 header-img: img/background3.jpg

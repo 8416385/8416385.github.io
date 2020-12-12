@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JS-JavaScript单体内置对象
-subtitle:   JavaScript
+subtitle:   内置对象与方法
 date:       2019-08-25
 author:     listen_spacer
 header-img: img/background1.jpg
